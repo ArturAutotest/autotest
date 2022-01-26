@@ -1,0 +1,61 @@
+id: 7WPd1ncm5E-Ga-4GVRK7sQ
+projectId: CCH6SIccU0uRtheihrnh9w
+projectName: AutoTest
+created: 2022-01-26T09:08:27.1252696Z
+protocol: 1
+tests:
+- id: vdOl8rLddE287nYcWC1m3Q
+  name: 1
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-01-26T09:08:27.0000000
+  modificationDate: 2022-01-26T09:08:27.0000000
+  settings:
+    automationAssistant: true
+    appId: z23GheY6Xk2OWHYYB2nj7Q
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: z23GheY6Xk2OWHYYB2nj7Q
+    name: investment
+    url: https://investment.test.ive.one/#/marketplace
+    platform: Web
+  steps:
+  - id: 7mcPE9x4WEKsbStHwhmTyg
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://investment.test.ive.one/#/marketplace
+    type: Input
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
